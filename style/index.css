@@ -5,9 +5,10 @@
     padding: 0%;
     margin: 0%;
     max-width: 100%;
-    border: 1px solid black;
     font-family: 'Permanent Marker', cursive;
     background-color: ivory;
+    color: #4c4c5d;
+    text-align: center;
 }
 .banner {
     display: flex;
@@ -26,12 +27,41 @@ img {
     align-content: space-around;
 }
 h1 {
+    color: #ed6165;
     padding: 2%;
+    font-size: 20px;
     }
 
-a {
-
-}
 nav {
     padding: 5%;
+    background-color: #82B1C4;
+}
+.banner {
+    display: flex;
+    align-content: space-around;
+    background-image: url("https://scontent-bos3-1.xx.fbcdn.net/v/t1.0-9/397359_10150466490344681_1840306710_n.jpg?_nc_cat=111&ccb=2&_nc_sid=cdbe9c&_nc_ohc=aMydcqQ8H7oAX-t-1Bx&_nc_ht=scontent-bos3-1.xx&oh=f410900ac6492a56b19fea325b6709b0&oe=5FBFF3C0");
+    background-size: cover ;
+    padding: 20%;
+}
+h2 {
+    font-size: 1rem;
+    padding-top: 2%;
+    align-content: center;
+    opacity: 70%;
+}
+.line1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    
+}
+.line2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.bottom {
+    background-color: #ed6165;
+    padding: 45px;
 }
