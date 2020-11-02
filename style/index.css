@@ -15,16 +15,19 @@
     flex-wrap: wrap;
 }
 img {
-    max-height: 200px;
     max-width: 200px;
+    max-height: 200px;
+    height: 70%;
+    width: 70%;
     border: 6px solid #82B1C4;
 }
 .banner {
     max-height: 200px;
 }
 .topline {
-    display: flex;
-    align-content: space-around;
+    display:flex;
+    align-content: space-between;
+    margin-top: 4%;
 }
 h1 {
     color: #ed6165;
@@ -33,8 +36,15 @@ h1 {
     }
 
 nav {
-    padding: 5%;
-    background-color: #82B1C4;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2%;
+}
+a {
+    text-decoration: none;
+    flex-direction: row;
+    padding: 2%;
 }
 .banner {
     display: flex;
@@ -45,9 +55,8 @@ nav {
 }
 h2 {
     font-size: 1rem;
-    padding-top: 2%;
-    align-content: center;
-    opacity: 70%;
+    align-content:center;
+    opacity: 40%;
 }
 .line1 {
     display: flex;
@@ -64,4 +73,8 @@ h2 {
 .bottom {
     background-color: #ed6165;
     padding: 45px;
+}
+.bottom a{
+    border: 2px solid black ;
+    padding: 1%;
 }
