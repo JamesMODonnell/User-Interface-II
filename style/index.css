@@ -44,7 +44,6 @@ nav {
 a {
     text-decoration: none;
     flex-direction: row;
-    padding: 2%;
 }
 .banner {
     display: flex;
@@ -107,6 +106,7 @@ h2 {
     }
     .topline {
         display:flex;
+        flex-direction: column;
         align-content: space-between;
         margin-top: 4%;
     }
@@ -119,6 +119,7 @@ h2 {
     nav {
         margin: 5px;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         padding-left: 2%;
     }
@@ -159,6 +160,15 @@ h2 {
         border: 2px solid black ;
         padding: 1%;
     }
+    .line1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   .line2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 }
 
@@ -190,6 +200,7 @@ h2 {
     }
     .topline {
         display:flex;
+        flex-direction: column;
         align-content: space-between;
         margin-top: 4%;
     }
@@ -202,6 +213,7 @@ h2 {
     nav {
         margin: 5px;
         display: flex;
+        flex-direction: column;
         justify-content: space-evenly;
         padding-left: 2%;
     }
